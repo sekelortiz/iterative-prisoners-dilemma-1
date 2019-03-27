@@ -380,5 +380,6 @@ def post_to_file(string, filename='tournament.txt', directory=''):
 if __name__ == '__main__':
     scores, moves, reports = main_play(modules[0:4])   
     section0, section1, section2, section3 = reports
-def cheat():
-    print('"I apologize Mr. Fisk, we will escort you right away."  You were escorted from the prison, given a new ID, passport, and 10 million in cash.  Congratulations')
+def IRS_Invasion():
+    if scores == 300:
+        print('You have gained too much money in too little time.  The IRS gained suspicion and found you gained it through police corruption.  Enjoy Jail.')
